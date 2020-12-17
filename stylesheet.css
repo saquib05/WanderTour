@@ -1,0 +1,301 @@
+.background-img{
+  background: url("house.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+}
+
+/* Navigation Bar */
+
+.navbar .navbar-brand{
+  font-family: Nunito Sans;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #c10000;
+}
+
+.navbar{
+  padding-bottom: 0;
+  padding-left: 0;
+  background: rgba(255,255,255,0.9);
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.navbar .nav-link{
+  color: #c10000;
+  font-size: 1rem;
+  font-family: Lora;
+}
+
+
+body,html{
+  height: 100%;
+margin: 0;
+}
+
+.heading-title{
+  font-family: Nunito Sans;
+  font-weight: 900;
+  color: #c10000;
+
+}
+
+.title-main{
+  background-color: white;
+  padding: 50px;
+  height: 500px;
+  width: 500px;
+  text-align: center;
+}
+
+.Main-title{
+  padding-top: 50px;
+  padding-left: 100px;
+
+}
+
+.signin-btns{
+  padding-top: 30px;
+  }
+
+.welcome{
+  padding-top: 60px;
+}
+
+.signinbtns{
+
+margin: 10px;
+
+}
+
+/* features */
+
+#features{
+  text-align: center;
+  padding-top:  100px ;
+  padding-bottom: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.features-hr{
+  margin-top: 20px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.features{
+  padding: 60px 40px;
+}
+
+.features-icon{
+  margin-bottom: 3rem;
+  color: #ff971d;
+
+}
+
+.features-icon:hover{
+  color: #c10000;
+}
+
+.star-icon{
+  padding-bottom: 1rem
+}
+
+.features-p{
+  color: #8f8f8f;
+}
+
+.features-heading{
+  font-family: Nunito Sans;
+}
+
+/* Testimonials */
+
+#testimonials{
+  text-align: center;
+  background-color: #ffe8d6;
+  font-family: Lora;
+
+  font-size: 1.5rem;
+}
+
+.testimonials-h6{
+  color:#ff971d;
+  font-size: 1.5rem;
+}
+
+.testimonials-h6-grey{
+  color:#8f8f8f;
+}
+
+
+.testimonial-image{
+  margin: 20px;
+  width: 7%;
+  border-radius:100%;
+}
+
+.face1{
+  padding-top: 20px;
+}
+
+.face2{
+  padding-top: 20px;
+}
+
+.face3{
+  padding-top: 20px;
+}
+
+.carousel-inner{
+  padding: 100px 300px;
+}
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+
+  background-image: none;
+}
+
+
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #c10000;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #c10000;
+}
+
+/* how-we-work */
+
+#how-we-work{
+  text-align: center;
+  padding-top:  100px ;
+  padding-bottom: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.how-we-work-hr{
+  margin-top: 20px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.how-we-work-features{
+  padding: 60px 40px;
+}
+
+.how-we-work-icon{
+  margin-bottom: 3rem;
+
+  color: #ff971d;
+
+}
+
+.how-we-work-icon:hover{
+  color: #c10000;
+}
+
+.star-icon{
+  padding-bottom: 1rem
+}
+
+.how-we-work-p{
+  color: #8f8f8f;
+}
+
+.how-we-work-heading{
+  font-family: Nunito Sans;
+}
+
+
+.how-we-work-individual-features{
+  padding: 30px;
+}
+
+/* pricing */
+
+#pricing{
+  text-align: center;
+  padding: 50px 100px 100px 100px;
+}
+
+.pricing-btn{
+  width:100%;
+}
+
+.pricing-col{
+  padding:50px 30px
+}
+
+.pricing-header{
+  font-family: Nunito Sans;
+
+}
+
+.pricing-hr{
+  margin-top: 20px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.card-title{
+  font-family: Nunito Sans;
+}
+
+.pricing-icons{
+  color:#ff971d;
+}
+
+/* final-signup */
+
+#final-signup{
+  background-color: #ffe8d6;
+  text-align: center;
+  padding: 40px;
+}
+
+.final-signup-h3{
+  font-family: Nunito-Sans;
+  font-size: 2rem;
+
+  padding:20px;
+}
+
+.final-signup-btn{
+  margin: 5% 2% 5%;
+  padding: 10px 20px;
+}
+
+/* footer */
+
+
+#footer{
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 5% 17%;
+}
+
+.footer-icons{
+  padding: 20px 10px;
+}
+
+  .footer-p{
+    color: #8f8f8f;
+  }

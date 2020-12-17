@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> Wander Tours</title>
+  <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat:900|Nunito+Sans|Open+Sans&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="explore.css">
+  <script src="https://kit.fontawesome.com/ababefe9b8.js" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#"> Wander</a>
+    <ul class="nav nav-tabs">
+      <li class="nav-items " href="#">
+        <a class="nav-link " href="G:\Studies\Project\index.html"> Home </a>
+      </li>
+      <li class="nav-items " href="#">
+        <a class="nav-link active" href="#"> Explore </a>
+      </li>
+      <li class="nav-items " href="#">
+        <a class="nav-link " href="#"> Contact us </a>
+      </li>
+    </ul>
+
+  </nav>
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="carousel-inner-text">
+          <div class="carousel-heading">
+            <p>The Best of Asia.<p>
+                <p class="carousel-p">Visit One of the best places in India</p>
+                <button type="button" class="btn  btn-outline-light bg-light btn-lg btn-carousel" name="button"> Book Now!</button>
+          </div>
+        </div>
+        <img src="G:\Studies\Project\images\Web 1920 – 1@2x.jpg" class="d-block w-100 carousel_images" alt="...">
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-inner-text">
+          <div class="carousel-heading">
+            <p>Beauty of Beaches<p>
+                <p class="carousel-p">Best beaches of Mauritius and Thailand</p>
+                <button type="button" class="btn  btn-outline-light bg-light btn-lg btn-carousel" name="button"> Book Now!</button>
+          </div>
+        </div>
+        <img src="G:\Studies\Project\images\cottages-in-the-middle-of-beach-753626.jpg" class="d-block w-100 carousel_images" alt="...">
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-inner-text">
+          <div class="carousel-heading">
+            <p>Party in Paris<p>
+                <p class="carousel-p">Visit one of the best places in Paris</p>
+                <button type="button" class="btn  btn-outline-light bg-light btn-lg btn-carousel" name="button"> Book Now!</button>
+          </div>
+        </div>
+        <img src="G:\Studies\Project\images\explore_image_3@2x.jpg" class="d-block w-100 carousel_images" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- Section Search -->
+
+  <section id="Search">
+    <div class="row search">
+      <div class="col-lg-6 search-heading">
+        <p>Where u want to go</p>
+      </div>
+      <div class="col-lg-6 search-area">
+        <form action="/action_page.php">
+          <input type="text" id="fname" name="fname" value="Destination"><br><br>
+          <label for="lname">From:</label></br>
+          <input type="date" id="lname" name="lname"><br><br>
+          <label for="lname">To:</label></br>
+          <input type="date" id="lname" name="lname"><br><br>
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Package
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Basic</a>
+              <a class="dropdown-item" href="#">Premium</a>
+              <a class="dropdown-item" href="#">Deluxe</a>
+            </div>
+          </div>
+          <br><br><input type="submit" value="Book">
+      </div>
+      </form>
+    </div>
+
+  </section>
+
+</body>
+
+</html>
